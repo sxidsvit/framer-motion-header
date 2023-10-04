@@ -1,0 +1,107 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #fff;
+  color: #111827;
+}
+header {
+  height: 4rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+header > .header__left {
+  width: 50%;
+  font-size: 1.5rem;
+}
+header > .header__right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header__right > * {
+  margin: 0 1.5rem;
+  position: relative;
+}
+.header__right > .notification__button {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+.header__right > .notification__icon {
+  height: 100%;
+  width: 100%;
+}
+.header__right > .image {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  overflow: hidden;
+}
+.header__right > .image > img {
+  height: 100%;
+  width: 100%;
+}
+.notification__tray {
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px #e5e7eb;
+  position: fixed;
+  width: 24rem;
+  top: 4.5rem;
+  right: 2rem;
+  color: rgb(65, 65, 81);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.notification__tray > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.notification__tray li {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notification__tray li:hover {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+.notification__tray li .clear__button {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.notification__tray li .clear__icon {
+  width: 100%;
+  height: 100%;
+}
+.todo__header {
+  text-align: center;
+}
+.todo__container {
+  list-style-type: none;
+}
+.todo__item {
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px #e5e7eb;
+  color: #111827;
+  margin: 1.5rem auto;
+  width: 350px;
+  padding: 1.5rem 2rem;
+  background-color: #e5e7eb;
+}

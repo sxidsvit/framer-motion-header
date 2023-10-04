@@ -1,0 +1,1 @@
+### An illustration of the basic use of [Framer Motion library](https://www.npmjs.com/package/framer-motion) for animating site header elements
